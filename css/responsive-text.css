@@ -1,0 +1,221 @@
+/*Created by MIRZA AHMED BAIG*/
+/*Date: 08-02-2017*/
+/*Time: 10:06 PM*/
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+}
+
+body {
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+    line-height: 1.4;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
+div {
+
+}
+
+.resp-text {
+    font-size: 10px;
+}
+
+.resp-container {
+
+}
+
+/* Media Query for <h1> to <h6>*/
+
+@media (min-width: 337px), (max-width: 337px) {
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 17px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+    h6 {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 21px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    h6 {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 21px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    h6 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    h4 {
+        font-size: 24px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    h6 {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1440px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 32px;
+    }
+    h4 {
+        font-size: 28px;
+    }
+    h5 {
+        font-size: 24px;
+    }
+    h6 {
+        font-size: 20px;
+    }
+}
+
+/*Media Query for <p>*/
+
+@media (min-width: 337px) {
+    p {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 480px) {
+    p {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px) {
+    p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1440px) {
+    p {
+        font-size: 18px;
+    }
+}
+
+
